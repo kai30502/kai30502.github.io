@@ -1,32 +1,39 @@
-html {
-    font-size: 16px;
-    font-family:'Open Sans', sans-serif;
-    background-color: gainsboro;
-    }
-
-body {
-        width: 600px;
-        margin: 0 auto;
-        background-color: pink;
-        padding:15px 20px 15px 20px;
-        border: 2px solid yellowgreen;
-      }
-
-p ,li{
-    color:brown;
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 1px;
-  }
-
-h1{
-    font-size: 60px;
+html{
+    font-family: 'Noto Sans TC', sans-serif;
     text-align: center;
-    padding: 2px ;
-    color: brown;
-    text-shadow: 3px 3px 1px black;
+    background-color: #faf4e1;
 }
 
-img{
-    max-width: 100%;
+
+#p1{    /*圖片1*/
+    text-align: center;
+    margin: auto;
 }
+
+#menu a{
+    margin:75px;
+}
+
+#title{     /*DODOFAIRY*/
+    font-size: 50px;
+    padding: 5px;
+    line-height: 1px;
+}
+
+p{
+    line-height: 5px;
+}
+
+#bl{ /*learn more*/
+    border: 1px solid black;
+    line-height: 150px;
+    padding: 10px 20px;
+    margin:10px;
+}
+
+#content{
+    line-height:50px;
+    width: 800px;
+    margin: auto;
+}
+
